@@ -7,6 +7,7 @@ module.exports = {
   JWT_SIGN: process.env.JWT_SIGN,
   GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
   GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
-  GOOGLE_CALLBACK_URL: "https://tight-adorne-pulsekein-43f4bedf.koyeb.app/auth/callback",
-  REDIRECT_URL: "https://splitter-friend.netlify.app/main",
+  GOOGLE_CALLBACK_URL: process.env.GOOGLE_CALLBACK_URL,
+  REDIRECT_URL: process.env.REDIRECT_URL,
 };
+
